@@ -1,0 +1,20 @@
+package testNG;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+import org.testng.annotations.BeforeTest;
+
+public class TestNGMaster {
+
+	public String expval, actval;
+	public FileInputStream fi;
+	public Properties pr;
+	public String prPath = "D:\\QAReasearchers_Recordings\\Automation\\WorkSpace\\SeleniumProject\\src\\com\\SeleniumProject\\properties\\OrgHRM.properties"; 
+	
+	@BeforeTest
+	public void orgLaunch()
+	{
+		
+	}
+}

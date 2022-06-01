@@ -1,0 +1,12 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+public class UserRegTest_TestNG extends TestNGMaster {
+
+	@Test
+	public void orguserReg()
+	{
+		
+	}
+}
